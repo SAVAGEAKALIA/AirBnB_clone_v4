@@ -158,7 +158,8 @@ Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twit
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
+Saviour Davies - [Github](https://github.com/SAVAGEAKALIA) / [Twitter](https://https://x.com/DAddy_Savy)
 
-Second part of Airbnb: Joann Vuong
+Second part of Airbnb: Saviour Davies
 ## License
 Public Domain. No copy write protection. 
