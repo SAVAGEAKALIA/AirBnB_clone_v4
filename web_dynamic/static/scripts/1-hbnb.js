@@ -3,13 +3,18 @@ $(document).ready(function () {
     $('input[type="checkbox"]').change(function () {
         const amenityId = $(this).attr('data-id');
         const amenityName = $(this).attr('data-name');
+
         if (this.checked) {
-            input_dict[amenityId.val()] = amenityName.val();
+            input_dict[amenityId] = amenityName;
         } else {
-            delete input_dict[amenityId.val()];
+            delete input_dict[amenityId];
         }
 
-        const amenitylist = Object.values(input_dict).join(', ')
-        $('.amenities h4').text(amenitylist);
+        updatelist()
     })
+
+    function updatelist(){
+        const amenitylist = Object.values(input_dict).join(', ')
+        $('div.amenities h4').text(amenitylist);
+    }
 });
