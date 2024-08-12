@@ -9,7 +9,7 @@
     <link type="text/css" rel="stylesheet" href="../static/styles/8-places.css?{{ cache_id }}">
     <link rel="icon" href="../static/images/icon.png" />
 	  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	  <script type="text/javascript" src="/static/scripts/100-hbnb.js?{{ cache_id }}"></script>
+	  <script type="text/javascript" src="/static/scripts/101-hbnb.js?{{ cache_id }}"></script>
     <title>HBnB</title>
   </head>
   <body>
@@ -57,6 +57,14 @@
       <div class="placesh1"><h1>Places</h1></div>
       <section class="places">
 	<!-- <h1>Places</h1> -->
+      </section>
+
+      <!-- Reviews Section -->
+      <section class="reviews">
+        <h2>Reviews <span id="toggle-reviews" data-state="show" style="cursor: pointer; color: blue;">show</span></h2>
+        <div id="reviews-section" style="display: none;">
+          <!-- Reviews will be dynamically added here -->
+        </div>
       </section>
     </div>
     <footer>
