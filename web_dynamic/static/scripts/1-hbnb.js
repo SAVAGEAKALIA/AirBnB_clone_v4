@@ -1,5 +1,6 @@
 $(document).ready(function () {
     const input_dict = {};
+
     $('input[type="checkbox"]').change(function () {
         const amenityId = $(this).attr('data-id');
         const amenityName = $(this).attr('data-name');
@@ -10,11 +11,11 @@ $(document).ready(function () {
             delete input_dict[amenityId];
         }
 
-        updatelist()
-    })
+        updatelist();  // Add semicolon here
+    });
 
-    function updatelist(){
-        const amenitylist = Object.values(input_dict).join(', ')
+    function updatelist() {
+        const amenitylist = Object.values(input_dict).join(', ');
         $('div.amenities h4').text(amenitylist);
     }
 });
